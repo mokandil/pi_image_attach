@@ -1,0 +1,12 @@
+{
+  "name": "pi-image-attach",
+  "version": "0.1.0",
+  "description": "Cross-platform screenshot and image attach flow for pi",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "keywords": ["pi-package", "pi", "warp", "images", "clipboard"],
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
