@@ -5,7 +5,19 @@
   "type": "module",
   "private": false,
   "license": "MIT",
-  "keywords": ["pi-package", "pi", "warp", "images", "clipboard"],
+  "keywords": ["pi-package", "pi", "images", "clipboard", "terminal"],
+  "files": ["index.ts", "README.md", "src/**/*"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mokandil/pi_image_attach.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mokandil/pi_image_attach/issues"
+  },
+  "homepage": "https://github.com/mokandil/pi_image_attach#readme",
   "pi": {
     "extensions": ["./index.ts"]
   }
